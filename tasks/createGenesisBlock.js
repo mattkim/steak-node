@@ -10,7 +10,7 @@ var Crypto = require('../helpers/crypto.js');
 var networks = require('../networks.json');
 
 // network name that SHOULD already be preconfigured in ../networks.json
-var network_name = "bitcoin";
+var network_name = "steak";
 if(!networks[network_name]){
   console.log("WARNING: no configuration found in networks.json for '"+network_name+"'. Defaulting to 'devnet'");
   network_name = "devnet";
@@ -83,7 +83,7 @@ var config = {
         port: 5432,
         database: db_name,
         user: null,
-        password: "password",
+        password: "iliketostake",
         poolSize: 20,
         poolIdleTimeout: 30000,
         reapIntervalMillis: 1000,

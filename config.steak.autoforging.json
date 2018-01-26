@@ -1,0 +1,149 @@
+{
+  "port": 4100,
+  "address": "0.0.0.0",
+  "version": "0.0.1",
+  "fileLogLevel": "info",
+  "logFileName": "logs/ark.log",
+  "consoleLogLevel": "debug",
+  "trustProxy": false,
+  "db": {
+    "host": "localhost",
+    "port": 5432,
+    "database": "ark_steak",
+    "user": null,
+    "password": "iliketostake",
+    "poolSize": 20,
+    "poolIdleTimeout": 30000,
+    "reapIntervalMillis": 1000,
+    "logEvents": [
+      "error"
+    ]
+  },
+  "api": {
+    "mount": true,
+    "access": {
+      "whiteList": []
+    },
+    "options": {
+      "limits": {
+        "max": 0,
+        "delayMs": 0,
+        "delayAfter": 0,
+        "windowMs": 60000
+      }
+    }
+  },
+  "peers": {
+    "minimumNetworkReach": 1,
+    "list": [
+      {
+        "ip": "127.0.0.1",
+        "port": 4100
+      },
+      {
+        "ip": "127.0.0.2",
+        "port": 4100
+      },
+      {
+        "ip": "127.0.0.3",
+        "port": 4100
+      },
+      {
+        "ip": "127.0.0.4",
+        "port": 4100
+      },
+      {
+        "ip": "127.0.0.5",
+        "port": 4100
+      }
+    ],
+    "blackList": [],
+    "options": {
+      "limits": {
+        "max": 0,
+        "delayMs": 0,
+        "delayAfter": 0,
+        "windowMs": 60000
+      },
+      "maxUpdatePeers": 20,
+      "timeout": 5000
+    }
+  },
+  "forging": {
+    "coldstart": 6,
+    "force": true,
+    "secret": [
+      "sun lava rebel slogan depend rack swear lizard place use sunset advance",
+      "original hole curtain move copy expire opera wolf cram vehicle risk month",
+      "buddy sorry cinnamon entry approve attack still damp river fatigue bid clog",
+      "bread coin distance act hand subject badge chat foil culture witness beef",
+      "prosper business faith mango work broom zoo game hammer lottery cherry family",
+      "emerge fun abstract average beyond save jewel play minor rough very sadness",
+      "surround cool mix menu fiscal couch nurse salute case sense stove best",
+      "head kidney orchard also romance raven lend swim mystery skate kidney lonely",
+      "fresh hockey dry shoot jazz often april rocket forest olympic squeeze viable",
+      "note win grape ritual memory neglect welcome omit crime guard drill size",
+      "treat potato virtual cliff connect damp farm broccoli drive lunch coconut saddle",
+      "claim inner thumb concert wink erode kitten mixture rent genre feel discover",
+      "gesture keen divide shield tomato blur eagle trouble enter sauce good lift",
+      "oyster suit arch bike mixed chef van nose absorb plunge sketch nuclear",
+      "miss head brave teach steak rifle when budget topple say equal lab",
+      "cry verb diamond melody chicken stone below over chat gorilla coconut proud",
+      "credit file provide civil flower mass ill identify peanut frown rail repair",
+      "thumb gauge vehicle noise leisure alarm cereal frog friend bid fly skull",
+      "year face enact piece december cotton above artefact subject direct lend soda",
+      "wealth prevent bind sense nice about exile tilt tomorrow rose one behave",
+      "speak crew speak link drip primary surge tumble hotel rotate pretty shoe",
+      "fortune beauty badge enemy radio close inject because luxury put okay south",
+      "boss syrup nothing object twin face solution income winter strong stumble address",
+      "august normal vehicle margin slogan enable taste lady aerobic chuckle drip drastic",
+      "library virus wasp fat laugh talk initial cradle end plunge kid floor",
+      "matrix deposit worth post vault glide page document sausage student cousin depend",
+      "rich perfect cinnamon human course town escape bread planet appear couple cage",
+      "lady legal spike tenant creek rain convince list cart sample mutual cliff",
+      "match disorder project novel flush ordinary kid august bulb neither rabbit pig",
+      "alpha limb dial fruit wide spawn galaxy abuse gate frown life code",
+      "despair sketch smile admit gaze claw author offer merit surge fetch feel",
+      "learn trap dial remove hurt talk avoid claim slogan tumble replace nephew",
+      "meat screen recall feature scissors cost present crisp holiday attack forward prison",
+      "spring sport close document annual album hurdle leisure method wall path blur",
+      "oval danger student reason pyramid weekend enlist tribe antique avoid report able",
+      "prize drive rotate rice turtle arrange sponsor gadget satoshi tower repeat bargain",
+      "critic link supreme side wave festival rescue marine tattoo old wool wedding",
+      "dad much pony ill vehicle banner quality metal awesome indicate what ecology",
+      "put bright jazz need two bright enrich battle slogan gloom output enforce",
+      "garlic segment shed diet humor neck little order buyer hawk where gauge",
+      "drip mistake lounge fragile romance mechanic supreme fortune action crisp horse random",
+      "purity elder whisper acid elevator insane shield frog october sword near crack",
+      "silly move cushion shuffle include laugh supply tone silk cross indicate evoke",
+      "gather garden unfold peace ignore skull fetch shop tiger doctor ordinary sail",
+      "genius song ship inhale hope hospital similar pole runway diesel shift wise",
+      "candy eyebrow artefact coil fan until comic cheap vendor drill vast panic",
+      "claw nest zebra member elder gloom soda gasp steak exist chapter gift",
+      "glimpse agree sheriff cherry kitten flush trial multiply bounce rough shock upper",
+      "furnace response large agent divert champion express approve icon captain thank sign",
+      "inflict sniff city flower quiz great cross giraffe innocent diamond exercise airport",
+      "scatter hub bus craft anger else where bonus employ syrup gaze tool"
+    ],
+    "access": {
+      "whiteList": [
+        "127.0.0.1"
+      ]
+    }
+  },
+  "loading": {
+    "verifyOnLoading": false,
+    "loadPerIteration": 5000
+  },
+  "ssl": {
+    "enabled": false,
+    "options": {
+      "port": 443,
+      "address": "0.0.0.0",
+      "key": "./ssl/ark.key",
+      "cert": "./ssl/ark.crt"
+    }
+  },
+  "network": "steak",
+  "nethash": "482a090e26c3ced0cb389c63d1e42d4d55993d20623c7ebee8e630b0eaa243fd"
+}
