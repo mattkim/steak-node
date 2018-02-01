@@ -83,7 +83,7 @@ var config = {
         port: 5432,
         database: db_name,
         user: null,
-        password: "iliketostake",
+        password: "password",
         poolSize: 20,
         poolIdleTimeout: 30000,
         reapIntervalMillis: 1000,
